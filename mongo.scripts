@@ -1,0 +1,35 @@
+********Create Boards Table****************
+db.boards.insert([
+     {
+         "board_id": "BRD0001",
+         "board_name": "CBSE",
+         "board_contact": "cbse.gov.ac.in",
+         "schools": [
+             {
+                 "school_id": "SCH00001",
+                 "school_name": "MTPS",
+                 "school_contact": "info@mtps.com",
+                 "board_zone": "North",
+                 "school_branch_id": "BR001",
+                 "streams_offerred": {
+                     "science": [
+                         "Medical",
+                         "Non-Medical"
+                     ],
+                     "commerce": [
+                         "With Maths",
+                         "Without Maths"
+                     ],
+                     "arts": [
+                         "Standard",
+                         "Special"
+                     ]
+                 }
+             }
+         ]
+     }
+ ]
+)
+
+**************Create Organizations Table***************
+db.organizations.insert([{"org_id":"ORG00001","org_name":"CTS", "org_address":"Bengaluru", "org_email":"info@cognizant.com", "org_contact":"08043234564", "org_status":"active"}])
