@@ -1,0 +1,22 @@
+{
+  "name": "com.ceers.node.apis",
+  "version": "1.0.0",
+  "description": "APIs for accessing MongoDB data",
+  "main": "index1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "lite-server",
+    "start": "lite-server"
+  },
+  "dependencies": {
+    "body-parser": "1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "lite-server": "^2.6.1",
+    "mongodb": "^3.6.4",
+    "request": "^2.88.2",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
